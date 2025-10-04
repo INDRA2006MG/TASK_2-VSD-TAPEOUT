@@ -17,7 +17,8 @@ ls
 ```
 `ls` used for to list out the files inside the `VSDBabySoC folder` and verify its contents.
 
-<img width="735" height="348" alt="Screenshot from 2025-10-04 16-17-30" src="https://github.com/user-attachments/assets/1f505281-78ab-4034-b8b9-051e9e3c0391" />
+![WhatsApp Image 2025-10-04 at 21 15 38_1e6c9991](https://github.com/user-attachments/assets/96c6353b-7144-425a-8f1d-d98bfa63f330)
+
 
 ---
 
@@ -25,8 +26,6 @@ ls
 
 After cloning the repository, it is important to understand the structure of the files and directories.
 This helps in navigating the design, identifying modules, and preparing for simulation.
-
-<img width="1182" height="714" alt="Screenshot from 2025-10-04 16-15-36" src="https://github.com/user-attachments/assets/cdf2cea2-99e4-4284-803a-42f3605009d7" />
 
 ---
 
@@ -53,7 +52,6 @@ pip install pyyaml click sandpiper-saas
 # Step 4: Convert rvmyth.tlv to Verilog
 sandpiper-saas -i ./src/module/*.tlv -o rvmyth.v --bestsv --noline -p verilog --outdir ./src/module/
 ```
-<img width="1022" height="489" alt="Screenshot from 2025-10-04 16-34-36" src="https://github.com/user-attachments/assets/f472829b-bdf4-419b-87d6-3def6ab121e2" />
 
 After running the above command, rvmyth.v will be generated in the src/module/ directory.
 
@@ -62,8 +60,6 @@ You can confirm this by listing the files:
 cd ~/vcd/photos/VSDBabySoC
 ls src/module
 ```
-<img width="737" height="492" alt="Screenshot from 2025-10-04 16-38-18" src="https://github.com/user-attachments/assets/78cf0694-4a3d-43f3-a90d-0c9c3ebb41c4" />
-
 #### Note
 To use this environment in future sessions, always activate it first:
 ```bash
@@ -95,7 +91,7 @@ After running the simulation, open the VCD file in GTKWave:
 cd ~/vcd/photos/VSDBabySoC
 gtkwave output/pre_synth_sim/pre_synth_sim.vcd
 ```
-<img width="1648" height="837" alt="Screenshot from 2025-10-04 16-57-53" src="https://github.com/user-attachments/assets/17484371-b5aa-4552-b173-ff9314c83e57" />
+<img width="1812" height="837" alt="image" src="https://github.com/user-attachments/assets/b8363d39-910e-4769-904d-ec28294e7dd4" />
 
 ---
 
@@ -188,7 +184,7 @@ iverilog -o ~/vcd/photos/VSDBabySoC/src/module/avsddac.vvp ~/vcd/photos/VSDBabyS
 vvp avsddac.vvp
 gtkwave avsddac_tb_test.vcd
 ```
-<img width="998" height="701" alt="Screenshot from 2025-10-04 17-37-26" src="https://github.com/user-attachments/assets/6b443cbf-ca7d-4904-b30b-bfb382c2ebf2" />
+<img width="1238" height="790" alt="image" src="https://github.com/user-attachments/assets/659c212f-0b44-49a2-a612-02aa4deb35d7" />
 
 `avsdpll.v`
 
@@ -242,7 +238,7 @@ iverilog -o ~/Documents/Verilog/Labs/avsdpll.vvp ~/Documents/Verilog/Labs/VSDBab
 vvp avsddac.vvp
 gtkwave avsddac_tb_test.vcd
 ```
-<img width="998" height="704" alt="Screenshot from 2025-10-04 18-25-40" src="https://github.com/user-attachments/assets/0b47fb59-bff1-429f-94d2-873b74a923d4" />
+<img width="993" height="628" alt="image" src="https://github.com/user-attachments/assets/f574df61-0762-404c-9919-20b4d6abf754" />
 
 ---
 
@@ -376,7 +372,7 @@ Then finally write the netlist using the command,
 write_verilog -noattr ~/vcd/photos/vsdbabysoc_synth.v
 ```
 
-<img width="724" height="199" alt="image" src="https://github.com/user-attachments/assets/6569db4a-f896-4c20-b24c-cf1fb55e2ff5" />
+<img width="1394" height="244" alt="image" src="https://github.com/user-attachments/assets/33204399-e8be-409f-bd2a-a63cbef52b0a" />
 
 Simulation :
 
