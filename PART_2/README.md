@@ -408,7 +408,12 @@ gtkwave post_synth_sim.vcd
 ```
 _Waveform:_
 
-![waveformpostsynth](https://github.com/navneetprasad1311/vsd-soc-pgrm-w2/blob/main/Part2/Images/waveformpostsynth.png)
+<img width="1593" height="794" alt="image" src="https://github.com/user-attachments/assets/d55cd9ce-8487-4a33-9009-497b8f995801" />
+
+---
+## Pre-Synthesis vs Post-Synthesis Simulation
+
+<img width="1912" height="886" alt="image" src="https://github.com/user-attachments/assets/abc54ff4-a328-4620-b6af-7aba189d4c61" />
 
 ---
 
