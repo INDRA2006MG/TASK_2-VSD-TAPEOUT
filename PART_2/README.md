@@ -406,3 +406,12 @@ Then, to view the waveform,
 vvp vsdbabysoc_synth.vvp
 gtkwave post_synth_sim.vcd
 ```
+_Waveform:_
+
+![waveformpostsynth](https://github.com/navneetprasad1311/vsd-soc-pgrm-w2/blob/main/Part2/Images/waveformpostsynth.png)
+
+---
+
+## Summary
+
+A little system-on-a-chip called VSDBabySoC showcases essential SoC principles and functional modeling.  It demonstrates full data flow from compute to output by integrating a CPU, clock control with a PLL, and a DAC.  The design has a strong emphasis on timing, signal behavior, and module integration, allowing for waveform analysis using GTKWave and system functionality simulation and verification with Icarus Verilog.  Simulations conducted before and after synthesis verify the design's functionality, demonstrating how functional modeling connects abstract ideas with real-world SoC implementation.
